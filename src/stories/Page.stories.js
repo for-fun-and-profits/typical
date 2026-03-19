@@ -26,3 +26,9 @@ export const LoggedIn = {
     await expect(logoutButton).toBeInTheDocument();
   },
 };
+
+export const SomethingWrong = {
+  args: {
+    shouldThrowError: true,
+  },
+};
