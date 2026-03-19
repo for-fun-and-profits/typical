@@ -3,12 +3,12 @@ import React from "react";
 import { Header } from "./Header";
 import "./page.css";
 
-export const Page = ({ shouldThrowError }) => {
+export const Page = () => {
   const [user, setUser] = React.useState();
 
-  if (shouldThrowError) {
-    throw new Error("Throwing this error");
-  }
+  // if (shouldThrowError) {
+  //   throw new Error("Throwing this error");
+  // }
 
   return (
     <article>
