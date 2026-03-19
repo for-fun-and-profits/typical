@@ -6,9 +6,6 @@ import { Button } from "./Button";
 import "./header.css";
 
 export const Header = ({ user = null, onLogin, onLogout, onCreateAccount }) => {
-  if (!user) {
-    throw new Error("UOUOUOUO");
-  }
   return (
     <header>
       <div className="storybook-header">
