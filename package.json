@@ -11,7 +11,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "scripty": "funny",
-    "chromatic": "CHROMATIC_INDEX_URL=https://chromatic-index-pr-10907.herokuapp.com npx chromatic --exit-zero-on-changes --exit-once-uploaded --project-token=chpt_aec0931c93f1020"
+    "chromatic": "CHROMATIC_INDEX_URL=https://chromatic-index-pr-10981.herokuapp.com npx chromatic --exit-zero-on-changes --exit-once-uploaded --project-token=chpt_aec0931c93f1020"
   },
   "dependencies": {
     "react": "^19.1.0",
